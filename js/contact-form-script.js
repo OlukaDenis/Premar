@@ -15,7 +15,7 @@ function submitForm(){
     // Initiate Variables With Form Content
     var name = $("#name").val();
     var email = $("#email").val();
-    var msg_subject = $("#msg_subject").val();
+    var msg_subject = $("#phone").val();
     var message = $("#message").val();
 
 
@@ -25,6 +25,7 @@ function submitForm(){
         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
         success : function(text){
             if (text == "success"){
+                console.log("sent to backed,,,");
                 formSuccess();
             } else {
                 formError();

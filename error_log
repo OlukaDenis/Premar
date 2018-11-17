@@ -1,0 +1,2 @@
+[16-Nov-2018 05:44:19 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/premar/public_html/wip/index.php on line 519
+[16-Nov-2018 05:45:03 America/Chicago] PHP Fatal error:  Call to undefined function is_empty() in /home/premar/public_html/wip/index.php on line 519

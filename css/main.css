@@ -413,13 +413,13 @@ button:focus {
 
   @media only screen and (max-width: 768px) {
     #hero-area {
-      background: url(../img/premar.jpg) fixed no-repeat;
+      background: url(../img/premar-bg2-sm.png) fixed no-repeat;
       background-position:cover;
       background-size: 100% 100%;
       color: #fff;
       overflow: hidden;
       position: relative; 
-      height: 200px;
+      height: 300px;
     }
   }
 
@@ -475,7 +475,7 @@ button:focus {
 
 #hero-area .banner_bottom_btn i:hover {
   background: #61D2B4;
-  color: #;
+  /* color: #; */
 }
 
 /* ==========================================================================
